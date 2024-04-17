@@ -11,7 +11,7 @@ In WAT 2018, we introduced the IndicMT task for the first time spanning covering
 
 ### Task Description
 
-The task covers 22 Indic Languages (Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Nepali, Oriya, Punjabi, Sindhi (Arabic script), Sinhala, Tamil, Telugu, Santali, Kashmiri (Arabic and Devanagari script), Maithili, Sanskrit and Urdu), Dogri, Bodo, Manipuri and English. We will evaluate the submissions on 44 translation directions (English-Indic and Indic-English). We will also evaluate the performance of 5 Indic-Indic pairs: Bengali-Hindi, Tamil-Telugu, Hindi-Malayalam and Sindhi-Punjabi. We encourage the use of multilingualism and transfer-learning by leveraging monolingual data, backtranslation and (potentially) LLMs, to develop high quality systems.
+The task covers English and 22 Indic Languages, namely, Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Nepali, Oriya, Punjabi, Sindhi (Arabic script), Sinhala, Tamil, Telugu, Santali, Kashmiri (Arabic and Devanagari script), Maithili, Sanskrit, Urdu, Dogri, Bodo and Manipuri. We will evaluate the submissions on 44 translation directions (English-Indic and Indic-English). We will also evaluate the performance of 5 Indic-Indic pairs: Bengali-Hindi, Tamil-Telugu, Hindi-Malayalam and Sindhi-Punjabi. We encourage the use of multilingualism and transfer-learning by leveraging monolingual data, backtranslation and (potentially) LLMs, to develop high quality systems.
 
 ### Corpora
 
@@ -52,7 +52,7 @@ The task covers 22 Indic Languages (Assamese, Bengali, Gujarati, Hindi, Kannada,
 
 ### Timeline
 
-* Release of training/dev data - 20th April, 2024
+* Task and training/dev data announcement - 20th April, 2024
 * Test data release - 13 July, 2024
 * Run Submission and Abstract submission deadline - 28th July, 2024
 * System description/workshop paper submission deadline - TBA, 2024 (follow EMNLP/WMT page)
