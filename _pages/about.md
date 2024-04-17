@@ -11,13 +11,13 @@ In WAT 2018, we introduced the IndicMT task for the first time spanning covering
 
 ### Task Description
 
-The task covers English and 22 Indic Languages, namely, Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Nepali, Oriya, Punjabi, Sindhi (Arabic script), Sinhala, Tamil, Telugu, Santali, Kashmiri (Arabic and Devanagari script), Maithili, Sanskrit, Urdu, Dogri, Bodo and Manipuri. We will evaluate the submissions on 44 translation directions (English-Indic and Indic-English). We will also evaluate the performance of 5 Indic-Indic pairs: Bengali-Hindi, Tamil-Telugu, Hindi-Malayalam and Sindhi-Punjabi. We encourage the use of multilingualism and transfer-learning by leveraging monolingual data, backtranslation and (potentially) LLMs, to develop high quality systems.
+The task covers English and 22 Indic Languages, namely, Assamese, Bengali, Bodo, Dogri, Konkani, Gujarati, Hindi, Kannada, Kashmiri (Arabic script), Maithili, Malayalam, Marathi, Manipuri (Meitei script), Nepali, Oriya, Punjabi, Sanskrit, Santali, Sindhi (Devanagari script), Tamil, Telugu, Urdu. We will evaluate the submissions on 44 translation directions (English-Indic and Indic-English). We will also evaluate the performance of 5 Indic-Indic pairs: Bengali-Hindi, Tamil-Telugu, Hindi-Malayalam and Sindhi-Punjabi. We encourage the use of multilingualism and transfer-learning by leveraging monolingual data, backtranslation and (potentially) LLMs, to develop high quality systems.
 
 ### Corpora
 
 * Evaluation data: 
-	* Development set: We provide [Flores-In22](https://indictrans2-public.objectstore.e2enetworks.net/flores-22_dev.zip) a subset of FLORES-200 spanning all 22 aforementioned languages.
-	* Public Test set: We will evaluate on the [In22-Gen and In22-Conv](https://indictrans2-public.objectstore.e2enetworks.net/IN22_testset.zip) test sets. These are English original test sets. As we have always done, these test sets are public but we trust participants to not fine-tune on them for fairness and correctness.
+	* Development set: We provide [FLORES-22 Indic dev set](https://indictrans2-public.objectstore.e2enetworks.net/flores-22_dev.zip) an extended version of FLORES-200 dev set spanning all 22 aforementioned languages.
+	* Public Test set: We will evaluate on the [IN22-Gen and IN22-Conv](https://indictrans2-public.objectstore.e2enetworks.net/IN22_testset.zip) test sets. These are English original test sets. As we have always done, these test sets are public but we trust participants to not fine-tune on them for fairness and correctness.
 	* Hidden Test set: Additionally, we will evaluate on a hidden test set which is Indic original. This spans 13 of the 22 languages and will be released a week before the end of the shared task deadline. 
 * Training data:
 	* We recommend using the [BPCC dataset](https://ai4bharat.iitm.ac.in/bpcc/) which spans all 22 languages. Additional details of the dataset are present in the [github repo](https://github.com/AI4Bharat/IndicTrans2). Note that one may pivot via English to obtain Indic-Indic parallel corpora.
