@@ -47,10 +47,10 @@ The task covers 22 Indic Languages (Assamese, Bengali, Gujarati, Hindi, Kannada,
 
 ### Timeline
 
-Release of training/dev data | 15th March, 2024
-Test data release | 13 July, 2024
-Run Submission and Abstract submission deadline | 28th July, 2024
-System description/workshop paper submission deadline | TBA, 2024 (follow EMNLP/WMT page)
-Notification of Acceptance | TBA, 2024 (follow EMNLP/WMT page)
-Camera-ready | TBA, 2024 (follow EMNLP/WMT page)
-Workshop Dates | follow EMNLP/WMT main page
+* Release of training/dev data | 15th March, 2024
+* Test data release | 13 July, 2024
+* Run Submission and Abstract submission deadline | 28th July, 2024
+* System description/workshop paper submission deadline | TBA, 2024 (follow EMNLP/WMT page)
+* Notification of Acceptance | TBA, 2024 (follow EMNLP/WMT page)
+* Camera-ready | TBA, 2024 (follow EMNLP/WMT page)
+* Workshop Dates | follow EMNLP/WMT main page
