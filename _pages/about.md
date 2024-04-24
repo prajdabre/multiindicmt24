@@ -44,6 +44,7 @@ The task covers English and 22 Indic Languages, namely, Assamese, Bengali, Bodo,
 
 ### Submission details
 
+* If you wish to participate then please fill this [form](https://docs.google.com/forms/d/e/1FAIpQLScT_PxHGAoLD5huUJtrKpglut4G-0cY0qa7xJE5_2V-g32gbQ/viewform?usp=sf_link) so that we may send you the hidden test sets when it is time.
 * Constrained submission:
 	* If you use the data and models mentioned above the your submission will be considered as constrained.
 * Unconstrained submission:
@@ -54,6 +55,7 @@ The task covers English and 22 Indic Languages, namely, Assamese, Bengali, Bodo,
 * We will use the SacreBLEU for evaluation and primarily rely on chrF while BLEU will be the secondary metric.
 	* We recommend following this [script](https://github.com/AI4Bharat/IndicTrans2/blob/main/compute_metrics.sh) for evaluation, since we will do the same.
 * We will also perform human evaluation of a few language pairs which will be decided soon.
+* We will provide rankings per translation direction for both automatic and human evaluation.
 * When submitting results please submit a single **zip** file with the following name: (Teamname)-(Constrained/Unconstrained).zip
 	* For example if your team name is Garuda and you are making an Unconstrained submission then the zip file will be: Garuda-Unconstrained.zip
 * Under the zip file there should be files for each direction in the format: (srccode)-(tgtcode).txt.
