@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Multi
-middle_name: Indic
-last_name: MT Task 2024
+first_name: MultiIndicMT
+middle_name: 2024
+last_name: Shared Task
 email: prajdabre@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   The MultiIndicMT 2024 shared task page. This will be a part of WAT 2024, hosted alongside WMT 2024.
