@@ -56,10 +56,10 @@ The task covers English and 22 Indic Languages, namely, Assamese, Bengali, Bodo,
 	* We recommend following this [script](https://github.com/AI4Bharat/IndicTrans2/blob/main/compute_metrics.sh) for evaluation, since we will do the same.
 * We will also perform human evaluation of a few language pairs which will be decided soon.
 * We will provide rankings per translation direction for both automatic and human evaluation.
-* When submitting results please submit a single **zip** file with the following name: (Teamname)-(Constrained/Unconstrained).zip
-	* For example if your team name is Garuda and you are making an Unconstrained submission then the zip file will be: Garuda-Unconstrained.zip
+* When submitting results please submit a single **zip** file with the following name: (Teamname)-(Constrained/Unconstrained).zip.
+	* For example if your team name is Garuda and you are making an Unconstrained submission then the zip file will be: Garuda-Unconstrained.zip.
 * Under the zip file there should be files for each direction in the format: (srccode)-(tgtcode).txt.
-	* The codes should be as per the codes listed [here](https://github.com/AI4Bharat/IndicTrans2?tab=readme-ov-file#indictrans2)
+	* The codes should be as per the codes listed [here](https://github.com/AI4Bharat/IndicTrans2?tab=readme-ov-file#indictrans2).
  	* So if you are submitting Hindi to English and Punjabi to Sindhi (Devanagari script) translations then the file names will be: hin_Deva-eng_Latn.txt and pan_Guru-snd_Deva.txt.
 
 ### Timeline
