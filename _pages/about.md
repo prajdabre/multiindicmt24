@@ -51,7 +51,8 @@ The task covers English and 22 Indic Languages, namely, Assamese, Bengali, Bodo,
 
 ### Evaluation
 
-* We will use the SacreBleu toolkit for evaluation and primarily rely on chrF while BLEU will be the secondary metric.
+* We will use the SacreBLEU for evaluation and primarily rely on chrF while BLEU will be the secondary metric.
+	* We recommend following this [script](https://github.com/AI4Bharat/IndicTrans2/blob/main/compute_metrics.sh) for evaluation, since we will do the same.
 * We will also perform human evaluation of a few language pairs which will be decided soon.
 * When submitting results please submit a single **zip** file with the following name: (TEAMNAME)-(CONSTRAINED/UNCONSTRAINED).zip
 	* For example if your team name is Garuda and you are making an Unconstrained submission then the zip file will be: Garuda-Unconstrained.zip
