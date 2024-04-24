@@ -45,10 +45,19 @@ The task covers English and 22 Indic Languages, namely, Assamese, Bengali, Bodo,
 ### Submission details
 
 * Constrained submission:
-	* If you use the data mentioned above the your submission will be considered as constrained.
+	* If you use the data and models mentioned above the your submission will be considered as constrained.
 * Unconstrained submission:
-	* Any other data used without confirmation from the organizers will result in unconstrained submissions.
+	* Any other data or models are used without confirmation from the organizers will result in unconstrained submissions.
 
+### Evaluation
+
+* We will use the SacreBleu toolkit for evaluation and primarily rely on chrF while BLEU will be the secondary metric.
+* We will also perform human evaluation of a few language pairs which will be decided soon.
+* When submitting results please submit a single **zip** file with the following name: (TEAMNAME)-(CONSTRAINED/UNCONSTRAINED).zip
+	* For example if your team name is Garuda and you are making an Unconstrained submission then the zip file will be: Garuda-Unconstrained.zip
+* Under the zip file there should be files for each direction in the format: (srccode-(tgtcode).txt.
+	* The codes should be as per the codes listed [here](https://github.com/AI4Bharat/IndicTrans2?tab=readme-ov-file#indictrans2)
+ 	* So if you are submitting Hindi to English and Punjabi to Sindhi (Arabic script) translations then the file names will be: hin_Deva-eng_Latn.txt and pan_Guru-snd_Arab.txt.
 
 ### Timeline
 
@@ -59,3 +68,8 @@ The task covers English and 22 Indic Languages, namely, Assamese, Bengali, Bodo,
 * Notification of Acceptance - TBA, 2024 (follow EMNLP/WMT page)
 * Camera-ready - TBA, 2024 (follow EMNLP/WMT page)
 * Workshop Dates - follow EMNLP/WMT main page
+
+### Contact
+
+* Raj Dabre: prajdabre@gmail.com
+* Anoop Kunchukuttan: anoop.kunchukuttan@gmail.com
