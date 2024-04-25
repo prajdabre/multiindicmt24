@@ -46,16 +46,14 @@ The task covers English and 22 Indic Languages, namely, Assamese, Bengali, Bodo,
 
 * If you wish to participate then please fill this [form](https://docs.google.com/forms/d/e/1FAIpQLScT_PxHGAoLD5huUJtrKpglut4G-0cY0qa7xJE5_2V-g32gbQ/viewform?usp=sf_link) so that we may send you the hidden test sets when it is time.
 * There are two types of submissions: Constrained and Unconstrained.
-* Constrained submission:
-	* If you use the data and models mentioned above the your submission will be considered as constrained.
-* Unconstrained submission:
-	* Any other data or models are used without confirmation from the organizers will result in unconstrained submissions.
-* When submitting results please submit a single **zip** file with the following name: (Teamname)-(Constrained/Unconstrained).zip.
-	* For example if your team name is Garuda and you are making an Unconstrained submission then the zip file will be: Garuda-Unconstrained.zip.
-* Under the zip file there should be files for each direction in the format: (srccode)-(tgtcode).txt.
+	* Constrained submission: If you use the data and models mentioned above the your submission will be considered as constrained.
+	* Unconstrained submission: Any other data or models are used without confirmation from the organizers will result in unconstrained submissions.
+* Please submit your system translations to prajdabre@gmail.com and anoop.kunchukuttan@gmail.com.
+	* Participants may submit up to 2 systems, one Primary (ranked) and one Contrastive (unranked, optional).
+* When submitting results please submit a single **zip** file with the following name: (Teamname)-(Constrained/Unconstrained)-(Primary/Contrastive).zip.
+	* For example if your team name is Garuda and you are making an Unconstrained, Primary submission then the zip file will be: Garuda-Unconstrained-Primary.zip.
+	* Under the zip file there should be files for each direction in the format: (srccode)-(tgtcode).txt.
 	* The codes should be as per the codes listed [here](https://github.com/AI4Bharat/IndicTrans2?tab=readme-ov-file#indictrans2). Thus if you are submitting Hindi to English and Punjabi to Sindhi (Devanagari script) translations then the file names will be: hin_Deva-eng_Latn.txt and pan_Guru-snd_Deva.txt.
-* Please submit your zip file to prajdabre@gmail.com and anoop.kunchukuttan@gmail.com.
-	* Participants may submit up to 2 zip files, one for a primary system (ranked) and one for a contrastive system (unranked, optional).
 
 ### Evaluation
 
