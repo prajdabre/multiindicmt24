@@ -21,7 +21,7 @@ The task covers English and 22 Indic Languages, namely, Assamese, Bengali, Bodo,
 	* Hidden Test set: Additionally, we will evaluate on a hidden test set which is Indic original. This spans 13 of the 22 languages and will be released a week before the end of the shared task deadline. 
 * Training data:
 	* We recommend using the [BPCC dataset](https://ai4bharat.iitm.ac.in/bpcc/) ([Gala et al., 2023](https://openreview.net/forum?id=vfT4YuzAYA))which spans all 22 languages. Additional details of the dataset are present in the [github repo](https://github.com/AI4Bharat/IndicTrans2). Note that one may pivot via English to obtain Indic-Indic parallel corpora.
-	* We additionally recommend the use of monolingual data from [Varta](https://huggingface.co/datasets/rahular/varta), and [IndicCorp v2](https://github.com/AI4Bharat/IndicBERT/tree/main#indiccorp-v2). We are expecting the release of [Sangraha](https://github.com/AI4Bharat/IndicLLMSuite) a dataset much larger than the aofrementioned ones.
+	* We additionally recommend the use of monolingual data from [Varta](https://huggingface.co/datasets/rahular/varta), [IndicCorp v2](https://github.com/AI4Bharat/IndicBERT/tree/main#indiccorp-v2) and [Sangraha](https://github.com/AI4Bharat/IndicLLMSuite) corpora.
 * Other data:
 	* Please check with the organizers once before using any other data sources.
 
