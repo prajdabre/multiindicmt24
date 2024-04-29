@@ -7,7 +7,7 @@ subtitle:   The MultiIndicMT 2024 shared task page. This will be a part of WAT 2
 
 ### Introduction
 
-In WAT 2018, we introduced the IndicMT task for the first time spanning covering 7 Indic languages. Over the years we have gradually added languages and now in WAT 2024, we are pleased to announce a multilingual Indic MT task spanning all 22 scheduled languages of India. Also, for the first time, this task will be hosted jointly along with the WMT 2024 shared tasks.
+In WAT 2018, we introduced the IndicMT task for the first time spanning covering 7 Indic languages. Over the years we have gradually added languages and now in WAT 2024, we are pleased to announce a multilingual Indic MT task spanning all **22 scheduled languages** of India belonging to **4 language families** and written in **12 scripts**. The languages exhibit both genetic as well as contact relatedness ([Kunchukuttan et al. 2020](https://arxiv.org/abs/2003.08925)). Some of these languages are extremely low-resource. This diversity makes this language group ideal for studies in multilingual learning, language relatedness and low-resource MT. For the first time, this task will be hosted jointly along with the WMT 2024 shared tasks.
 
 ### Task Description
 
@@ -20,7 +20,7 @@ The task covers English and 22 Indic Languages, namely, Assamese, Bengali, Bodo,
 	* Public Test set: We will evaluate on the [IN22-Gen and IN22-Conv](https://indictrans2-public.objectstore.e2enetworks.net/IN22_testset.zip) test sets. These are English original test sets. As we have always done, these test sets are public but we trust participants to not fine-tune on them for fairness and correctness.
 	* Hidden Test set: Additionally, we will evaluate on a hidden test set which is Indic original. This spans 13 of the 22 languages and will be released a week before the end of the shared task deadline. 
 * Training data:
-	* We recommend using the [BPCC dataset](https://ai4bharat.iitm.ac.in/bpcc/) which spans all 22 languages. Additional details of the dataset are present in the [github repo](https://github.com/AI4Bharat/IndicTrans2). Note that one may pivot via English to obtain Indic-Indic parallel corpora.
+	* We recommend using the [BPCC dataset](https://ai4bharat.iitm.ac.in/bpcc/) ([Gala et al., 2023](https://openreview.net/forum?id=vfT4YuzAYA))which spans all 22 languages. Additional details of the dataset are present in the [github repo](https://github.com/AI4Bharat/IndicTrans2). Note that one may pivot via English to obtain Indic-Indic parallel corpora.
 	* We additionally recommend the use of monolingual data from [Varta](https://huggingface.co/datasets/rahular/varta), and [IndicCorp v2](https://github.com/AI4Bharat/IndicBERT/tree/main#indiccorp-v2). We are expecting the release of [Sangraha](https://github.com/AI4Bharat/IndicLLMSuite) a dataset much larger than the aofrementioned ones.
 * Other data:
 	* Please check with the organizers once before using any other data sources.
